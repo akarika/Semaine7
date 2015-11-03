@@ -83,6 +83,7 @@ body{
         margin:5px 0 0 0;
     }
 
+
 .container { 
     position: relative; 
     width: 960px; 
@@ -115,18 +116,20 @@ body{
         background: #e95a44;
         color:#fff;
     }
- /*  code en dessous bug*/
+ 
+
+ 
 #portfoliolist .portfolio {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -o-box-sizing: border-box;
     width:23%;
     margin:1%;
-    display:inline-block;
+    display:none;
     float:left;
     overflow:hidden;
 }
-/* code au dessus bug */
+
     .portfolio-wrapper {
         overflow:hidden;
         position: relative !important;
@@ -166,6 +169,12 @@ body{
                 display:block;
                 font-size:9px;
             }
+    
+    
+    
+
+
+
 /* #Tablet (Portrait) */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
     .container {
@@ -228,4 +237,3 @@ body{
 
 .clear {
   clear: both;
-
