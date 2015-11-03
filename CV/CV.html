@@ -101,24 +101,194 @@
                 </section>
                 <section  id="menu2">
                     <div class="container ">
-                        <div class="row">
-                            <div class="col-xs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborumLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborumLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborumLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        </div>      
+                        <h3 class="text-uppercase">Portefolio</h3>
+                            <!--data-filter permet de filtrer les vignettes par catégorie-->
+                            <ul id="filters" class="clearfix row">
+                                <li><span class="filter active" data-filter="cat1 cat2 cat3 cat4">Toutes mes catégories</span></li>
+                                <li><span class="filter" data-filter="cat1">HTML/CSS</span></li>
+                                <li><span class="filter" data-filter="cat2">Javascript</span></li>
+                                <li><span class="filter" data-filter="cat3">Bootstrap</span></li>
+                                <li><span class="filter" data-filter="cat4">Ruby</span></li>
+                            </ul>
+                            <div id="portfoliolist"> <!--La div qui contient les vignettes des projets-->
+                
+                            <div class="portfolio cat2" data-cat="cat2">
+                                <div class="portfolio-wrapper">             
+                                    <img src="img/portfolios/logo/5.jpg" alt="" />
+                                    <div class="label">
+                                        <div class="label-text">
+                                            <a class="text-title">Annuaire</a>
+                                            <span class="text-category">Javascript</span>
+                                        </div>
+                                        <div class="label-bg"></div>
+                                    </div>
+                                </div>
+                            </div>              
+
+                            <div class="portfolio cat1" data-cat="cat1">
+                                <div class="portfolio-wrapper">         
+                                    <img src="img/portfolios/app/1.jpg" alt="" />
+                                    <div class="label">
+                                        <div class="label-text">
+                                            <a class="text-title">Titre de mon projet HTML/CSS</a>
+                                            <span class="text-category">HTML/CSS</span>
+                                        </div>
+                                        <div class="label-bg"></div>
+                                    </div>
+                                </div>
+                            </div>      
+                                        
+                            
+                            <div class="portfolio cat4" data-cat="cat4">
+                                <div class="portfolio-wrapper">         
+                                    <img src="img/portfolios/card/1.jpg" alt="" />
+                                    <div class="label">
+                                        <div class="label-text">
+                                            <a class="text-title">API Open Food Facts</a>
+                                            <span class="text-category">Ruby</span>
+                                        </div>
+                                        <div class="label-bg"></div>
+                                    </div>
+                                </div>
+                            </div>  
+                                        
+                            <div class="portfolio cat1" data-cat="cat1">
+                                <div class="portfolio-wrapper">
+                                    <img src="img/portfolios/app/3.jpg" alt="" />
+                                    <div class="label">
+                                        <div class="label-text">
+                                            <a class="text-title">Page de profil</a>
+                                            <span class="text-category">HTML/CSS</span>
+                                        </div>
+                                        <div class="label-bg"></div>
+                                    </div>
+                                </div>
+                            </div>          
+                            
+
+                            <div class="portfolio cat2" data-cat="cat2">
+                                <div class="portfolio-wrapper">         
+                                    <img src="img/portfolios/logo/1.jpg" alt="" />
+                                    <div class="label">
+                                        <div class="label-text">
+                                            <a class="text-title">Titre de mon projet en Javascript</a>
+                                            <span class="text-category">Javascript</span>
+                                        </div>
+                                        <div class="label-bg"></div>
+                                    </div>
+                                </div>
+                            </div>                                                                                                                                                          
+                            
+                            <div class="portfolio cat1" data-cat="cat1">
+                                <div class="portfolio-wrapper">         
+                                    <img src="img/portfolios/app/2.jpg" alt="" />
+                                    <div class="label">
+                                        <div class="label-text">
+                                            <a class="text-title">Page placement div</a>
+                                            <span class="text-category">HTML/CSS</span>
+                                        </div>
+                                        <div class="label-bg"></div>
+                                    </div>
+                                </div>
+                            </div>                                                      
+                            
+                            <div class="portfolio cat4" data-cat="cat4">
+                                <div class="portfolio-wrapper">         
+                                    <img src="img/portfolios/card/2.jpg" alt="" />
+                                    <div class="label">
+                                        <div class="label-text">
+                                            <a class="text-title">Exercice en Ruby</a>
+                                            <span class="text-category">Ruby</span>
+                                        </div>
+                                        <div class="label-bg"></div>
+                                    </div>
+                                </div>
+                            </div>                              
+                                                                                                     
+
+                            <div class="portfolio cat3" data-cat="cat3">
+                                <div class="portfolio-wrapper">         
+                                    <img src="img/portfolios/icon/1.jpg" alt="" />
+                                    <div class="label">
+                                        <div class="label-text">
+                                            <a class="text-title">Exercice utilisation Bootstrap</a>
+                                            <span class="text-category">Bootstrap</span>
+                                        </div>
+                                        <div class="label-bg"></div>
+                                    </div>
+                                </div>
+                            </div> 
+
+                            <div class="portfolio cat4" data-cat="cat4">
+                                <div class="portfolio-wrapper">         
+                                    <img src="img/portfolios/card/3.png" alt="" />
+                                    <div class="label">
+                                        <div class="label-text">
+                                            <a class="text-title">Titre de mon projet avec Ruby</a>
+                                            <span class="text-category">Ruby</span>
+                                        </div>
+                                        <div class="label-bg"></div>
+                                    </div>
+                                </div>
+                            </div>                                                                                                                                                    
+                            
+                            <div class="portfolio cat2" data-cat="cat2">
+                                <div class="portfolio-wrapper">         
+                                    <img src="img/portfolios/logo/3.jpg" alt="" />
+                                    <div class="label">
+                                        <div class="label-text">
+                                            <a class="text-title">Tic-Tac-Toe</a>
+                                            <span class="text-category">Javascript</span>
+                                        </div>
+                                        <div class="label-bg"></div>
+                                    </div>
+                                </div>
+                            </div>                                                                  
+
+                            <div class="portfolio cat2" data-cat="cat2">
+                                <div class="portfolio-wrapper">         
+                                    <img src="img/portfolios/logo/4.jpg" alt="" />
+                                    <div class="label">
+                                        <div class="label-text">
+                                            <a class="text-title">Pierre-Feuille-Ciseau</a>
+                                            <span class="text-category">Javascript</span>
+                                        </div>
+                                        <div class="label-bg"></div>
+                                    </div>
+                                </div>
+                            </div>      
+
+                            <div class="portfolio cat3" data-cat="cat3">
+                                <div class="portfolio-wrapper">         
+                                    <img src="img/portfolios/icon/2.jpg" alt="" />
+                                    <div class="label">
+                                        <div class="label-text">
+                                            <a class="text-title">Titre de mon projet Bootstrap</a>
+                                            <span class="text-category">Bootstrap</span>
+                                        </div>
+                                        <div class="label-bg"></div>
+                                    </div>
+                                </div>
+                            </div>                                                                                                         
+
+
+                            <div class="portfolio cat2" data-cat="cat2">
+                                <div class="portfolio-wrapper">         
+                                    <img src="img/portfolios/logo/2.jpg" alt="" />
+                                    <div class="label">
+                                        <div class="label-text">
+                                            <a class="text-title">Cookie Clicker</a>
+                                            <span class="text-category">Javascript</span>
+                                        </div>
+                                        <div class="label-bg"></div>
+                                    </div>
+                                </div>
+                            </div>              
+                        </div>
+
+
+
+
                     </div>
                 </section>
             </main>
